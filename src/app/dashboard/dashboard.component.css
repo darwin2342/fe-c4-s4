@@ -1,0 +1,42 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  margin-right: 3px;
+  height: 24px;
+}
+
+.search {
+  border: 2px solid #aed8e6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.note-card {
+  border: 1px solid #add8e6;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 7px 5px #add8e6;
+  background-color: #fff;
+  display: inline-block;
+  width: 150px;
+}
+
+.note-card h3 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.note-card p {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+
+.notes {
+  text-align: center;
+}

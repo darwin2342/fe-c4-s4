@@ -1,0 +1,15 @@
+<div class="add-note">
+    <h2>Add New Note</h2>
+    <form (ngSubmit)="addNote()">
+      <div class="form-row">
+        <div class="form-group">
+          <input type="text" [(ngModel)]="note.title" name="title" placeholder="Note Title">
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea [(ngModel)]="note.content" name="content" placeholder="Note Content"></textarea>
+      </div>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  

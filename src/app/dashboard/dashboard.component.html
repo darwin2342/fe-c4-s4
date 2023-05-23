@@ -1,0 +1,16 @@
+<app-add-note (noteAdded)="onNoteAdded($event)"></app-add-note>
+
+<div class="container">
+  <div class="search-container">
+  <div class="search">
+    <input [(ngModel)]="searchText" placeholder="Search note">
+    <button (click)="onSearchTextChanged()" type="button">Search</button>
+  </div>
+  </div>
+  <div class="notes">
+    <div class="note note-card" *ngFor="let note of notes">
+      <h3>{{ note.title }}</h3>
+      <p>{{ note.content }}</p>
+    </div>
+  </div>
+</div>
